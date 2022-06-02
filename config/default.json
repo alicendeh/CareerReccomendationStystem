@@ -1,0 +1,7 @@
+{
+  "secret": "!#9ad@fqp@org",
+  "mongoURI": "mongodb+srv://cr:cr123@cluster0.gochy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "API_SECRET": "VLC_QF8I2LHU--WOGzRUbQebsEU",
+  "API_KEY": "423218121414418",
+  "USER_NAME": "university-of-buea"
+}

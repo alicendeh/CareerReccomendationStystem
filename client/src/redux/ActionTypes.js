@@ -1,0 +1,14 @@
+export const REGISTER = 'REGISTER';
+export const LOGIN = 'LOGIN';
+export const LOGOUT = 'LOGOUT';
+export const ERROR = 'ERROR';
+export const LOADING = 'LOADING';
+export const LOADUSER = 'LOADUSER';
+export const CREATECAREER = 'CREATECAREER';
+export const ALLCAREERS = 'ALLCAREERS';
+export const CAREERERROR = 'CAREERERROR ';
+export const CAREERLOADING = 'CAREERLOADING ';
+export const CURRENTLYACTIVECAREER = 'CURRENTLYACTIVECAREER ';
+export const EDITCAREER = 'EDITCAREER ';
+export const RESET = 'RESET ';
+export const QUIZ = 'QUIZ ';

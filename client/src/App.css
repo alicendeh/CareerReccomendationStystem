@@ -1,0 +1,144 @@
+* {
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+.bckg {
+  background-color: #0fccce;
+}
+.circle {
+  width: fit-content;
+  height: 40px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 7px;
+}
+.click:hover {
+  color: #0fccce;
+}
+.click {
+  color: #3d4852;
+  cursor: pointer;
+}
+
+.elem:hover {
+  cursor: pointer;
+}
+
+.item1 {
+  transform: rotate(-12deg);
+  color: #0fccce;
+  font-size: 21px;
+  /* position: absolute; */
+}
+.item2 {
+  transform: translateX(90px);
+  /* margin-top: -12px; */
+  color: #0fccce;
+  font-size: 21px;
+  /* position: absolute; */
+}
+.item3 {
+  transform: translateY(-15px) translateX(20px);
+}
+.item4 {
+  transform: translateY(150px);
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 3px solid white;
+  animation: spin 0.7s linear infinite;
+  border-bottom-color: rgb(29, 158, 46);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .general {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .AllAnim {
+    /* background-color: red; */
+    /* display: flex; */
+  }
+  .AllAnim:nth-child(2) {
+    width: 12;
+  }
+  .AllAnim .div {
+    width: 10;
+    color: black;
+  }
+  .custom {
+    background-color: pink;
+    width: 30vw;
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width: 573px) {
+  .alignment {
+    text-align: center;
+  }
+  .callW {
+    width: 60%;
+  }
+}
+
+.items {
+  /* max-height: 120px; */
+  display: flex;
+  overflow-x: auto;
+  width: 1000px;
+}
+.item {
+  /* min-width: 110px; */
+  width: 1000px;
+}
+
+.items::-webkit-scrollbar {
+  width: 0;
+}
+
+.places {
+  /* background-color: red; */
+  animation: pl 1s ease-in-out;
+}
+
+@keyframes pl {
+  100% {
+    color: greenyellow;
+    transition: color 1s ease-in-out 1s;
+  }
+}
+
+.drawer {
+  width: 525px;
+}
+
+@media screen and (max-width: 525px) {
+  .drawer {
+    width: 100%;
+  }
+  .tab-box {
+    width: 90%;
+  }
+  .cmmt {
+    width: 100%;
+  }
+}

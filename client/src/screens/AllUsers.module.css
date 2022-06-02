@@ -1,0 +1,146 @@
+.colorContainer {
+  background-color: var(--green);
+  width: 7px;
+}
+.colorContainerPremium {
+  background-color: var(--yellow);
+  width: 7px;
+}
+.none {
+  background-color: var(--purple);
+  width: 7px;
+}
+.dt {
+  margin-left: 12px;
+}
+.line {
+  width: 1px;
+  background-color: var(--secondary);
+  margin-left: 12px;
+  height: 70%;
+}
+.imgContainer {
+  width: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(162, 4, 4);
+  font-size: 21px;
+}
+
+.userInfoContainer {
+  width: 325px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 23px;
+}
+
+.round {
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #dad104;
+  margin-right: 7px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  transition: 1s transform;
+}
+
+.card:hover {
+  transform: translateX(30px);
+}
+
+.txt {
+  font-size: 11px;
+}
+.usersPlan {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.txtContainer {
+  font-size: 13px;
+  margin-left: 22px;
+  font-weight: bold;
+  /* background-color: yellowgreen; */
+  width: 100%;
+}
+
+.email {
+  /* font-size: 10px; */
+  color: 'red';
+}
+
+.pendingContianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: #dad104;
+}
+.lineContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 943px) {
+  .mainCOntainer,
+  .usersPlan,
+  .txt,
+  .pendingContianer,
+  .dt {
+    font-size: 10px;
+  }
+  .txtContainer {
+    font-size: 10px;
+  }
+
+  .buttons {
+    font-size: 7px !important;
+  }
+  .card:hover {
+    transform: translateX(10px);
+  }
+}
+
+@media (max-width: 943px) {
+  .children {
+    margin-left: 102px;
+    margin-right: 105px;
+    padding: 14px 30px;
+  }
+}
+
+@media (max-width: 847px) {
+  .children {
+    margin-left: 102px;
+    margin-right: 0px;
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width: 477px) {
+  .children {
+    margin-left: 10px;
+    margin-right: 0px;
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width: 943px) {
+  .imgContainer {
+    width: 140px;
+  }
+}
